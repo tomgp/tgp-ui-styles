@@ -1,0 +1,137 @@
+		body{
+			font-family: Raleway;
+			background-color: #FFF;
+		}
+
+		input[type="range"]{
+			-webkit-appearance: none !important;
+			background: #000;
+			height: 5px;
+			-webkit-transform: translate3d(0px, 0px, 0px);
+			margin-top: 10px;
+			cursor: pointer;
+		}
+
+		input[type="range"]::-webkit-slider-thumb{
+			-webkit-appearance: none !important;
+			background: #FFF;
+			border: 5px solid #000;
+			height: 20px;
+			width: 20px;
+			cursor: pointer;
+		}
+
+		input[type="range"]::-webkit-slider-thumb:hover{
+			-webkit-appearance: none !important;
+			border: 5px solid #000;
+			background-color: #F00;
+		}
+
+		input[type="range"]::-webkit-slider-thumb:active{
+			-webkit-appearance: none !important;
+			border: 5px solid #F00;
+			background: #000;
+		}
+
+		output[type="range"]{
+			padding-left:20px; 
+			font-size: 1.2rem;
+			vertical-align: middle;
+		}
+
+		button{
+			background: #FFF;
+			font-size: 1.2rem;
+			border: solid 5px #000;
+			color: #000;
+			font-family: Raleway;
+			cursor: pointer;
+			padding:10px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		button:hover{
+			border: 5px solid #000;
+			color: #FFF;
+			background-color: #F00;
+			color: #FFF;
+		}
+
+		button:active{
+			background: #000;
+			border: 5px solid #F00;
+		}
+
+		button.disabled{
+			color: #999;
+			border: 5px dashed #999;
+			background: #FFF;
+			cursor: default;
+		}
+		button.disabled:active{
+
+		}
+
+		input[type="text"]{
+			border:none;
+			font-size: 1.2rem;
+			background: #FFF;
+			border-bottom: solid 5px #000;
+			padding-left: 10px;
+		}
+
+		input:focus, textarea:focus, button:focus {
+			outline: dashed 2px #F00;
+
+		}
+
+		label{
+			font-size: 1.2rem;
+		}
+
+		hr{
+			border:none;
+			border-bottom: 7px dashed #000;
+			margin-top:20px;
+			margin-bottom:20px;
+		}
+
+		h1{
+			font-size: 2.5rem;
+			font-weight: normal;
+		}
+
+		h2{
+			font-size: 1.9rem;
+			font-weight: normal;
+		}
+
+		table{
+			border-spacing: 10px;
+		}
+
+		th{
+			padding-left:20px;
+			padding-right:20px;
+			border-bottom: solid 5px #000;
+			margin:5px;
+		}
+
+		.highlight-negative{
+			background: #FFF;
+			font-weight: bold;
+		}
+
+		.highlight-positive{
+			background: #FFF;
+			font-weight: bold;	
+		}
+
+		p{
+			line-height: 1.3rem;
+		}
+
+		#myRange{
+			width: 400px;
+		}
